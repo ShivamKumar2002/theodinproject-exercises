@@ -1,0 +1,70 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    text-align: center;
+    background: #232323;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 20px 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    row-gap: 7vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.scores {
+    display: flex;
+    text-align: center;
+    gap: 10vw;
+}
+
+.score-area {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 15vw;
+    padding: 10px 0;
+    color: white;
+    background: #232323;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.choices {
+    display: flex;
+    gap: 15vw;
+    margin-top: 7vh;
+}
+
+.choice-button {
+    border: none;
+    border-radius: 8px;
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+    background: red;
+    padding: 20px 40px;
+}
+
+.choice-button:hover {
+    box-shadow: 2px 2px 20px 1px #232323;
+}
+
+.last-result {
+    font-size: 24px;
+    color: #232323;
+    font-weight: bold;
+    font-style: italic;
+}
